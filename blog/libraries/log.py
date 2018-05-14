@@ -14,8 +14,8 @@ class Log(object):
     """
 
     PATH = os.path.dirname(os.path.abspath(__file__))
-    INFORMATION_LOG = PATH + "/../logs/info.log"
-    ERROR_LOG = PATH + "/../logs/error.log"
+    INFORMATION_LOG = PATH + "/../../logs/info.log"
+    ERROR_LOG = PATH + "/../../logs/error.log"
 
     @staticmethod
     def ilog(**kwargs):
